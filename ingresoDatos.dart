@@ -8,5 +8,5 @@ print("Ingrese su carrera");
 var carrera = stdin.readLineSync();
 print("Ingrese campus al que pertenece: ");
 var campus = stdin.readLineSync();
-print("Mi nombre es $nombre mi edad es $edad y estudio la carrera $carrera en el campus $campus");
+print("Mi nombre es $nombre mi edad es $edad y estudio la carrera de $carrera en el campus $campus");
 }
