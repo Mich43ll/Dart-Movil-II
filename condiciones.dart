@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 void main(List<String> args) {
   List<String> alumnos = ['Brayan', 'Roberto', 'Oscar'];
@@ -39,4 +40,20 @@ void main(List<String> args) {
   // Ordenar de manera descendente
   numeros.sort((a, b) => b.compareTo(a));
   print("Lista ordenada descendente: $numeros");
+
+  //DO WHILE
+  continuar = 's';
+  contador = 0;
+  do {
+    contador++;
+    print("El contador es: $contador");
+    print("Desea continuar: (s/n)");
+    continuar = stdin.readLineSync();
+  } while (continuar == 's');
+
+//SWITCH
+
+  int random = Random().nextInt(5);
+
+
 }
